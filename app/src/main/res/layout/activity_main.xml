@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/qqbeijing3">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/qqbeijing1"
+        android:layout_marginTop="70dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+        <TextView
+            android:id="@+id/tubiao2"
+            android:layout_width="50sp"
+            android:layout_height="25dp"
+            android:text="账号:"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/ev_userName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="QQ号/手机号/邮箱"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tubiao3"
+            android:layout_width="50sp"
+            android:layout_height="25dp"
+            android:text="密码:"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"/>
+    <EditText
+        android:id="@+id/ev_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:password="true"
+        android:hint="请填写密码"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_login"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:text="登录"
+            android:background="@drawable/btg_2"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/btn_forget_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="忘记密码？"
+            android:textSize="20sp"
+            android:textColor="#1C86EE"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="新用户注册"
+            android:textSize="20sp"
+            android:textColor="#1C86EE"
+            android:gravity="center"
+            android:layout_marginLeft="140dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录即代表阅读并同意服务条款"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#1C86EE"/>
+    </LinearLayout>
+
+</LinearLayout>

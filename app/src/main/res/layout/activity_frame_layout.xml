@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/qqbeijing3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="南工院书院"
+            android:textSize="40dp"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="地址：羊山北路1号西门口"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="电话：19805026167"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="学校：南京工业职业技术学院"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntentActivity"></activity>
+        <activity android:name=".LifeCycleActivity"></activity>
+        <activity android:name=".ScalerActivity"></activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".AlgActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Touch" >
+
+        </activity>
+        <activity android:name=".Flowers" >
+
+        </activity>
+        <activity android:name=".Move1" />
+        <activity android:name=".MainActivity" >
+
+        </activity>
+        <activity android:name=".Calculator" >
+
+        </activity>
+        <activity android:name=".FunctionActivity">
+
+        </activity>
+        <activity android:name=".TextViewactivity" >
+
+        </activity>
+    </application>
+
+</manifest>

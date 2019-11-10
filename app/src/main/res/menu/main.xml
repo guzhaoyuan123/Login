@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/item_search"
+            android:orderInCategory="100"
+            android:title="搜索"
+            app:actionViewClass="android.support.v7.widget.SearchView"
+            app:showAsAction="always"
+            />
+        <item
+            android:id="@+id/item_groupchat"
+            android:icon="@drawable/qqbeijing1"
+            android:orderInCategory="100"
+            android:title="发起群聊"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/item_addfriend"
+            android:icon="@drawable/qqbeijing1"
+            android:orderInCategory="100"
+            android:title="添加朋友"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/item_saoyis"
+            android:icon="@drawable/qqbeijing1"
+            android:orderInCategory="100"
+            android:title="扫一扫"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/item_shoufukuan"
+            android:icon="@drawable/qqbeijing1"
+            android:orderInCategory="100"
+            android:title="收付款"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/item_help"
+            android:icon="@drawable/qqbeijing1"
+            android:orderInCategory="100"
+            android:title="帮助与反馈"
+            app:showAsAction="never"
+            />
+
+
+
+</menu>

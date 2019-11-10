@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Touch"
+    android:orientation="vertical">
+        <EditText
+            android:id="@+id/tou_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入IP地址"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tou_showIP"
+            android:hint="192.168.1.1"
+            android:textSize="20sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#66ccFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_coordinate"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:hint="显示touch坐标"/>
+
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/tv_touch"
+                    android:layout_width="96px"
+                    android:layout_height="96px"
+                    android:background="@drawable/tubiao1" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/bt_hang"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="悬挂通知"/>
+                        <Button
+                            android:id="@+id/bt_normal"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="普通通知"/>
+                        <Button
+                            android:id="@+id/bt_fold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="折叠通知"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/bt_clear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="清除通知"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="intent_value">接收Intent传递</string>
+</resources>

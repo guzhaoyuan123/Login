@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Flowers"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/paomadneng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="世界突然变得好安静只剩心跳的声音坚定了我爱你的决心此刻你就是唯一"
+                    android:textColor="#00ff00"
+                    android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#000000">
+                <ImageView
+                    android:id="@+id/flowers_tupian"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/flower2"/>
+        </LinearLayout>
+
+                <RadioGroup
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:id="@+id/flowers_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/flowers_meihua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="梅花"
+                    android:checked="true"
+                    android:textSize="20sp"/>
+                <RadioButton
+                    android:id="@+id/flowers_shilanhua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="石楠花"
+                    android:textSize="20sp"/>
+                <RadioButton
+                    android:id="@+id/flowers_xiangyahua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="象牙花"
+                    android:textSize="20sp"/>
+                </RadioGroup>
+
+        <RadioGroup
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:id="@+id/flowers_line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/flowers_xiuqiuhua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="绣球花"
+                    android:textSize="20sp"/>
+                <RadioButton
+                    android:id="@+id/flowers_yulanhua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="玉兰花"
+                    android:textSize="20sp"/>
+                <RadioButton
+                    android:id="@+id/flowers_mudanhua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="牡丹花"
+                    android:textSize="20sp"/>
+                </RadioGroup>
+
+
+
+</LinearLayout>
